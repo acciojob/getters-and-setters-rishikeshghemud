@@ -28,7 +28,7 @@ class Student extends Person {
 	}
 
 	study() {
-		return `${this.name} is studying`;
+		return `${this.name()} is studying`;
 	}
 }
 
@@ -38,7 +38,7 @@ class Teacher extends Person {
 	}
 
 	teach() {
-		return `${this.name} is teaching`;
+		return `${this.name()} is teaching`;
 	}
 }
 
