@@ -13,12 +13,12 @@ class Person {
 		return this.age;
 	}
 
-	set name(name) {
-		this.name = name;
+	set name(newName) {
+		this.name = newName;
 	}
 
-	set age(age) {
-		this.age=age;
+	set age(newAge) {
+		this.age=newAge;
 	} 
 }
 
