@@ -1,8 +1,8 @@
 //complete this code
 class Person {
-	constructor(name, age) {
-		this.name = name;
-		this.age=age;
+	constructor(namee, agee) {
+		this.name = namee;
+		this.age=agee;
 	}
 
 	get name() {
@@ -28,7 +28,7 @@ class Student extends Person {
 	}
 
 	study() {
-		return `${this.name()} is studying`;
+		return `${this.name} is studying`;
 	}
 }
 
@@ -38,7 +38,7 @@ class Teacher extends Person {
 	}
 
 	teach() {
-		return `${this.name()} is teaching`;
+		return `${this.name} is teaching`;
 	}
 }
 
